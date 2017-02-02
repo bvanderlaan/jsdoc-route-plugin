@@ -68,6 +68,12 @@ Now run [JsDoc](http://usejsdoc.org/) with the `--config` flag.
 ./node_modules/.bin/jsdoc --config jsdoc.conf
 ```
 
+## Example
+
+If you want to see an example of this plugin in action run the `npm run example1` command.
+That will run [JsDoc](http://usejsdoc.org/) against a sample Express app located in `examples` and produce HTML documentation in the `out` folder.
+To view the documentation open `out/index.html` in a browser.
+
 ## What are the new Tags
 
 The new tags are all about documenting Express routes.
