@@ -98,7 +98,8 @@ The `@route` tag will add a table showing the HTTP verb (i.e. POST, PUT, DEL, GE
 It would look something similar to the following:
 
 --------------------------------------
- ## Members
+
+## Members
   *(route)* File Upload
 
 ### Route:
@@ -133,7 +134,7 @@ It will result in a new sub-heading called **Authentication** with whatever text
 It would look something similar to the following:
 
 --------------------------------------
- ## Members
+## Members
   *(route)* File Upload
 
 ### Route:
@@ -178,7 +179,7 @@ The above would add a table under the route description that lists all the heade
 It would look something similar to the following:
 
 --------------------------------------
- ## Members
+## Members
   *(route)* File Upload
 
 ### Route:
@@ -235,7 +236,7 @@ The above would add a table under the route description that lists all the body 
 It would look something similar to the following:
 
 --------------------------------------
- ## Members
+## Members
   *(route)* File Upload
 
 ### Route:
@@ -282,7 +283,7 @@ The above would add a table under the route description that lists all the route
 It would look something similar to the following:
 
 --------------------------------------
- ## Members
+## Members
   *(route)* Download File
 
 ### Route:
@@ -335,7 +336,7 @@ The above would add a table under the route description that lists all the query
 It would look something similar to the following:
 
 --------------------------------------
- ## Members
+## Members
   *(route)* Download Files
 
 ### Route:
