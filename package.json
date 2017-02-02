@@ -9,7 +9,13 @@
     "example1": "rm -rf ./out/*; ./node_modules/.bin/jsdoc -c ./examples/jsdoc.conf --readme ./examples/README.md; true"
   },
   "keywords": [
-    "jsdoc"
+    "jsdoc",
+    "documentation",
+    "express",
+    "restful",
+    "rest",
+    "route",
+    "plugin"
   ],
   "repository": {
     "type": "git",
