@@ -17,6 +17,9 @@
     "route",
     "plugin"
   ],
+  "engines": {
+    "node": ">=4.6.2"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bvanderlaan/jsdoc-route-plugin.git"
