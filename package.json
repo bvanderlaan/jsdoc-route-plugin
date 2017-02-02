@@ -9,6 +9,10 @@
   "keywords": [
     "jsdoc"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bvanderlaan/jsdoc-route-plugin.git"
+  },
   "author": "Brad van der Laan",
   "license": "MIT"
 }
