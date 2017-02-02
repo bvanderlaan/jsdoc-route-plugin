@@ -5,16 +5,16 @@
 
 'use strict';
 
-const authenticationTag = require('lib/authentication');
-const routeTag = require('lib/route');
-const bodyParameterTag = require('lib/bodyparam');
-const headerParameterTag = require('lib/headerparam');
-const queryParameterTag = require('lib/queryparam');
-const routeParameterTag = require('lib/routeparam');
+const authenticationTag = require('./lib/authentication');
+const routeTag = require('./lib/route');
+const bodyParameterTag = require('./lib/bodyparam');
+const headerParameterTag = require('./lib/headerparam');
+const queryParameterTag = require('./lib/queryparam');
+const routeParameterTag = require('./lib/routeparam');
 
 exports.defineTags = function(dictionary) {
   dictionary.defineTag(authenticationTag.name, authenticationTag.options);
-  dictionary.defineTag(routeTag.name, routeTage.options);
+  dictionary.defineTag(routeTag.name, routeTag.options);
   dictionary.defineTag(bodyParameterTag.name, bodyParameterTag.options);
   dictionary.defineTag(headerParameterTag.name, headerParameterTag.options);
   dictionary.defineTag(queryParameterTag.name, queryParameterTag.options);
