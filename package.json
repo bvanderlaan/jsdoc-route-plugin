@@ -29,6 +29,9 @@
   },
   "author": "Brad van der Laan",
   "license": "MIT",
+  "peerDependencies": {
+    "jsdoc": "^3.4.3"
+  },
   "devDependencies": {
     "jsdoc": "^3.4.3"
   }
