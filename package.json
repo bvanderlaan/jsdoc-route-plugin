@@ -1,0 +1,14 @@
+{
+  "name": "jsdoc-route-plugin",
+  "version": "0.1.0",
+  "description": "Plugin to add custom HTTP Route tags for documenting Express routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'boo on me I have no tests.'"
+  },
+  "keywords": [
+    "jsdoc"
+  ],
+  "author": "Brad van der Laan",
+  "license": "MIT"
+}
