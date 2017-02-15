@@ -1,5 +1,9 @@
 # JsDoc Route Plugin
 
+[![NPM version][npm-image]][npm-url]
+[![Dependencies][david-image]][david-url]
+[![devDependencies][david-dev-image]][david-dev-url]
+
 This is a plugin for [JsDoc](http://usejsdoc.org/) which is a tool to generate HTML documentation from comment blocks.
 JsDoc will scan your code files looking for comment blocks then generate a nicely formated HTML document.
 
@@ -378,3 +382,11 @@ collaboration, and contributors are expected to adhere to the [Contributor Coven
 ## License
 
 The library is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
+[npm-image]: http://img.shields.io/npm/v/jsdoc-route-plugin.svg?style=flat
+[npm-url]: https://npmjs.org/package/jsdoc-route-plugin
+[david-image]: http://img.shields.io/david/bvanderlaan/jsdoc-route-plugin.svg?style=flat
+[david-url]: https://david-dm.org/bvanderlaan/jsdoc-route-plugin
+[david-dev-image]: http://img.shields.io/david/dev/bvanderlaan/jsdoc-route-plugin.svg?style=flat
+[david-dev-url]: https://david-dm.org/bvanderlaan/jsdoc-route-plugin#info=devDependencies
