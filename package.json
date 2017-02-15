@@ -29,10 +29,10 @@
   },
   "author": "Brad van der Laan",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "jsdoc": "^3.4.3"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "jsdoc": "^3.4.3"
   }
 }
