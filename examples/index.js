@@ -41,7 +41,7 @@ app.post('/v1/file', function (request, response) {
  * @headerparam authorization is the identification information for the request
  * @headerparam {String} user-id is the unique User Id to assign to the file
  */
-server.post('/v2/file', function (request, response) {
+app.post('/v2/file', function (request, response) {
   response.send(200);
 });
 
@@ -57,7 +57,7 @@ server.post('/v2/file', function (request, response) {
  * @bodyparam {Boolean} [sync=false] when true the route will be synchronous otherwise the route
  * is asynchronous.
  */
-server.post('/v3/file', function (request, response) {
+app.post('/v3/file', function (request, response) {
   response.send(200);
 });
 
@@ -74,7 +74,7 @@ server.post('/v3/file', function (request, response) {
  * is asynchronous.
  * @queryparam {String} folder is the folder to upload the file to.
  */
-server.post('/v4/file', function (request, response) {
+app.post('/v4/file', function (request, response) {
   response.send(200);
 });
 
@@ -87,7 +87,7 @@ server.post('/v4/file', function (request, response) {
  * @since v1
  * @routeparam {String} :fileId is the unique identifier for the file to download.
  */
-server.get('/v1/files/:fileId', function (request, response) {
+app.get('/v1/files/:fileId', function (request, response) {
   request.send('Your File');
 });
 
@@ -100,7 +100,7 @@ server.get('/v1/files/:fileId', function (request, response) {
  * @since v1
  * @queryparam {String} [fileType] will limit the download to just these file types.
  */
-server.get('/v1/files', function (request, response) {
+app.get('/v1/files', function (request, response) {
   request.send('Your Files');
 });
 
